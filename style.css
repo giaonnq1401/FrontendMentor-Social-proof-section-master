@@ -26,7 +26,10 @@ body
     margin: 0;
     min-height: 100vh;
     font-family: var(--font-family);
-    background: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg) center no-repeat;
+    font-size: 15px;
+    background: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left top, left bottom;
 }
 
 main
@@ -50,5 +53,76 @@ main
 
 .block .content_intro
 {
+    color: var(--very-dark-magenta);
     text-align: center;
+}
+
+.block .content_intro h1
+{
+    margin: 0 13%;
+    font-weight: 700;
+}
+
+#rating
+{
+    width: 100%;
+}
+#rating .content_rating
+{
+    justify-items: center;
+}
+
+.content_rating .rate
+{
+    margin: 5% 3%;
+    text-align: center;
+    background-color: var(--light-grayish-magenta);
+    padding: 1.2rem;
+    border-radius: 5px;
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+
+.content_feedback
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    color: var(--white);
+}
+
+.content_feedback .feedback
+{
+    margin: 5% 0;
+    padding: 8%;
+    background: var(--very-dark-magenta);
+    border-radius: 5px;
+}
+
+.feedback h2, h3
+{
+    font-size: 1em;
+    margin: 0;
+}
+
+.feedback h3
+{
+    color: var(--soft-pink);
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+footer
+{
+    text-align: center;
+    margin: 5%
+}
+.attribution
+{
+    color: var(--dark-grayish-magenta);
+}
+.attribution a
+{
+    text-decoration: none;
+    color: var(--soft-pink);
 }
