@@ -89,9 +89,10 @@ main
     color: var(--very-dark-magenta);
     font-weight: 700;
 }
-.content_rating .rate .star img
+.content_rating .rate .star
 {
     margin: 0 0.2em;
+    color: #ef9546;
 }
 .content_rating .rate p
 {
