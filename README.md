@@ -25,10 +25,10 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Preview:
-![desktop-preview](./screenshot/desktop-preview)
+![desktop-preview](./screenshot/desktop-preview.png)
 - Mobile Preview:
 
-![mobile-preview](./screenshot/mobile-preview)
+![mobile-preview](./screenshot/mobile-preview.png)
 
 
 ### Links
